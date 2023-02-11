@@ -28,7 +28,7 @@ const CreatePost = () => {
     if (form.prompt) {
       try {
         setGeneratingImg(true);
-        const response = await fetch('https://dalle-arbb.onrender.com/api/v1/dalle', {
+        const response = await fetch('https://dalee2-img-generator.onrender.com', {
           method: 'POST',
           headers: {
             'Content-Type': 'application/json',
